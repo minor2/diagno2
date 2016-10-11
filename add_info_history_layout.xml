@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_info_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.online.Addinfo_history">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="enter adhar_id"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/et_id"
+    />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="enter date"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/et_date"
+        android:inputType="date"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="enter hospital_name"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/et_hname"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="enter hospital_id"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/et_hid"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="enter doctor_name"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/et_dname"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="enter diseases"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/et_dise"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="enter special_remarks"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/et_sre"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="enter medication"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/et_medi"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Save Data"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:onClick="saveInfo"/>
+
+
+</LinearLayout>
